@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float and clear</title>
+    <style>
+        body{
+            font: italic;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            border: 4px solid black;
+            width: 900px;
+            margin:33px auto;
+        }
+        .items{
+border:4px solid red;
+border-radius: 8px;
+margin: 12px 3px;
+padding: 12px 3px;
+background-color: rgb(241, 208, 165);
+
+        }
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: left;
+            width: 50%;
+        }
+        #stationary{
+            clear: left;
+            width: 100%;
+        }
+        p,h3{
+            text-align: justify;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruit" class="items">
+            <h3>fruit</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis illo minima eveniet consectetur commodi, enim provident quas repudiandae incidunt molestias iure distinctio alias itaque tempore fugit porro non, reiciendis illum!</p>
+        </div>
+        
+        <div id="computer" class="items">
+            <h3>computer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis illo minima eveniet consectetur commodi, enim provident quas repudiandae incidunt molestias iure distinctio alias itaque tempore fugit porro non, reiciendis illum!</p>
+        </div>
+        <div id="stationary" class="items">
+            <h3>stationary</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis illo minima eveniet consectetur commodi, enim provident quas repudiandae incidunt molestias iure distinctio alias itaque tempore fugit porro non, reiciendis illum!</p>
+        </div>
+    </div>
+</body>
+</html>
